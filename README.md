@@ -405,7 +405,7 @@ const mapDispatchToProps = (dispatch) => {
 }
 
 const VisibleTodoList = connect(
-  makeMapStateToProps,
+  makeMapStateToPropsi(),
   mapDispatchToProps
 )(TodoList)
 
